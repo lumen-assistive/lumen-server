@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python-ci:
+    uses: lumen-assistive/.github/.github/workflows/reusable-python-ci.yml@main
+    with:
+      working-directory: "."
+      python-version: "3.12"
+
+  content-guard:
+    uses: lumen-assistive/.github/.github/workflows/reusable-content-guard.yml@main
