@@ -1,7 +1,5 @@
 # lumen-server
 
-[Italiano](README.it.md) | English
-
 The optional backend for [Lumen](https://github.com/lumen-assistive):
 caregiver device pairing, end-to-end encrypted sync, and model pack
 metadata. FastAPI + PostgreSQL + Docker Compose.
